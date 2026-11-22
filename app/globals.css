@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+:root{--ink:#20201e;--muted:#85847f;--line:#e8e6e1;--paper:#f7f6f2;--white:#fff;--accent:#9b7656}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:var(--paper);color:var(--ink);font-family:'DM Sans','Noto Sans KR',sans-serif}
+body{padding:0 24px}
+.shell{max-width:1080px;margin:0 auto}
+.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.brand{font-family:Georgia,serif;font-size:30px;letter-spacing:-2px;font-weight:bold;color:var(--ink);text-decoration:none}.brand span{color:var(--accent)}
+.topmeta{font-size:10px;letter-spacing:1.8px;color:#777;display:flex;align-items:center;gap:9px}.live-dot{width:7px;height:7px;border-radius:50%;background:#7c9879}.version{border:1px solid #d8d2c9;padding:4px 6px;border-radius:3px;font-size:9px}
+.hero{padding:76px 0 48px}.eyebrow{font-size:10px;letter-spacing:2px;color:var(--accent);font-weight:700;margin:0 0 13px}
+h1{font-family:Georgia,'Noto Sans KR',serif;font-size:clamp(38px,6vw,62px);line-height:1.18;letter-spacing:-2.8px;font-weight:500;margin:0}h1 em{font-style:normal;color:#9b7656}.sub{font-size:14px;color:var(--muted);margin:20px 0 0}
+.panel{background:var(--white);border:1px solid var(--line);padding:30px;margin-bottom:18px;border-radius:5px}.input-panel{background:#fff}
+.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:25px}.section-head .eyebrow{margin-bottom:7px}h2{font-size:21px;letter-spacing:-.7px;margin:0;font-weight:600}.count{font-size:10px;letter-spacing:1px;color:#8c8982;border:1px solid var(--line);padding:7px 10px;border-radius:20px}
+label{display:block;font-size:12px;color:#666;margin-bottom:10px}textarea{width:100%;height:126px;resize:vertical;border:1px solid var(--line);border-radius:3px;padding:15px;font:13px/1.8 'DM Sans','Noto Sans KR',sans-serif;outline:none}textarea:focus,input:focus,select:focus{border-color:#ad8c6f}
+.actions,.bottom-actions{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:16px}.hint{font-size:11px;color:#999;line-height:1.6}
+button{border:0;background:#292825;color:white;padding:13px 19px;font:600 12px 'Noto Sans KR',sans-serif;border-radius:3px;cursor:pointer}button span{font-size:16px;margin-left:12px}button:hover{background:#51483f}.notice{font-size:12px;color:#806447;background:#f7f2ed;padding:11px 13px;margin:16px 0 0;border-radius:3px;line-height:1.6}
+.empty{padding:48px 15px;text-align:center;border:1px dashed var(--line);color:#777}.empty-icon{font-size:27px;color:#b19a84;margin-bottom:12px}.empty strong{font-size:13px;color:#555}.empty p{font-size:11px;color:#aaa;margin:8px 0 0}
+.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:650px}th{text-align:left;color:#999;font-size:10px;letter-spacing:.7px;font-weight:500;padding:0 12px 13px;border-bottom:1px solid var(--line)}td{padding:13px 12px;border-bottom:1px solid #f0efec;font-size:12px}td input,td select{border:1px solid var(--line);border-radius:3px;padding:8px;font:12px 'Noto Sans KR',sans-serif;max-width:100%;background:white}.product-cell input{display:block;width:210px}.product-cell a{display:inline-block;color:#a18469;font-size:10px;margin-top:6px;text-decoration:none}.price{width:85px}.status{font-size:10px;color:#8c765e;background:#f6f1eb;padding:6px 8px;border-radius:3px;white-space:nowrap}
+.secondary{background:white;color:#383530;border:1px solid #dcd8d1}.secondary:hover{background:#f5f3ef}.bottom-actions{border-top:1px solid var(--line);padding-top:17px;margin-top:20px}
+footer{text-align:center;padding:35px 0 45px;color:#aaa;font-size:9px;letter-spacing:2px}footer span{padding:0 7px;color:#b99b7d}
+@media(max-width:640px){body{padding:0 14px}.topbar{height:64px}.hero{padding:55px 0 32px}.panel{padding:20px 16px}.actions,.bottom-actions{align-items:flex-start;flex-direction:column}.actions button,.bottom-actions button{width:100%}.hint{font-size:10px}}
